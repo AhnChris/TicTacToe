@@ -5,7 +5,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="player_x_txt">Player \'X\' turn</string>
     <string name="player_o_txt">Player \'O\' turn</string>
-    <string name="invalid_cell_txt">Invalid mode, try again</string>
+    <string name="invalid_cell_txt">Invalid move, try again</string>
     <string name="win_txt_draw">DRAW! Play again</string>
     <string name="win_txt_player_x">Player \'X\' WINS!</string>
     <string name="win_txt_player_o">Player \'O\' WINS</string>
