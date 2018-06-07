@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="@dimen/screen_edge_padding"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/playerDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/player_disp_spacing"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/player_disp_txt" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/white"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <ImageView
+            android:id="@+id/cell00"
+            style="@style/BaseCell"
+            android:layout_marginBottom="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp" />
+
+        <ImageView
+            android:id="@+id/cell01"
+            style="@style/BaseCell"
+            android:layout_marginBottom="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginStart="2dp" />
+
+        <ImageView
+            android:id="@+id/cell02"
+            style="@style/BaseCell"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginStart="2dp" />
+
+        <ImageView
+            android:id="@+id/cell10"
+            style="@style/BaseCell"
+            android:layout_marginBottom="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp" />
+
+        <ImageView
+            android:id="@+id/cell11"
+            style="@style/BaseCell"
+            android:layout_marginBottom="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp" />
+
+        <ImageView
+            android:id="@+id/cell12"
+            style="@style/BaseCell"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp" />
+
+        <ImageView
+            android:id="@+id/cell20"
+            style="@style/BaseCell"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp" />
+
+        <ImageView
+            android:id="@+id/cell21"
+            style="@style/BaseCell"
+            android:layout_marginEnd="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp" />
+
+        <ImageView
+            android:id="@+id/cell22"
+            style="@style/BaseCell"
+            android:layout_marginLeft="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp" />
+    </GridLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/newGameFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:src="@drawable/fab_ic" />
+
+</FrameLayout>

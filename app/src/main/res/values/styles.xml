@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BaseCell">
+        <item name="android:layout_width">@dimen/cell_width_img</item>
+        <item name="android:layout_height">@dimen/cell_height_img</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+</resources>

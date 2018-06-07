@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cell_width_img">70dp</dimen>
+    <dimen name="cell_height_img">70dp</dimen>
+    <dimen name="cell_border_margin">2dp</dimen>
+    <dimen name="player_disp_txt">24sp</dimen>
+    <dimen name="player_disp_spacing">40dp</dimen>
+    <dimen name="screen_edge_padding">10dp</dimen>
+</resources>
